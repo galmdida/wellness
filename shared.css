@@ -1,0 +1,155 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Style contact section in the nav */
+#nav-contact {
+    background: rgb(45, 45, 124);
+    margin-bottom: 0.5rem;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-contact ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0 3rem 0 3rem;
+    padding: 0px;
+}
+
+#nav-contact ul li {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav-contact ul li p {
+    margin-left: 0.5rem;
+    color: rgb(212, 235, 212);
+}
+
+
+header {
+    background: rgb(45, 17, 71);
+    padding: 0 3rem 0 0;
+    top: 0;
+    /* Position the navbar at the top of the page */
+    position: sticky;
+    /* Sticky is better than fixed as it keeps the upper part of the header visible when scrolled up */
+    width: 100%;
+    /* Full width */
+    overflow: hidden;
+    z-index: 100;
+    /* To avoid any element from overlying nav */
+}
+
+
+
+
+.logo img {
+    height: 4.3rem;
+    width: 4.3rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h2 {
+    margin-left: 0.6rem;
+    text-transform: uppercase;
+    color: rgb(196, 210, 221);
+    font-size: 1.3rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 0.6rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 0.3rem 0.2rem;
+    color: rgb(196, 210, 221);
+    border-radius: 3px;
+    transition: all 0.5s ease-in-out;
+}
+
+nav ul li a:hover {
+    background: rgb(66, 65, 65);
+}
+
+header .btn {
+    font-size: 1.3rem;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+/*************************** Making responsive */
+/* On small screen do not show nav-contact */
+@media(max-width: 768px) {
+    #nav-contact {
+        display: none;
+    }
+}
+
+@media(max-width: 768px) {
+    header {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    header .btn {
+        display: block;
+        padding: 0;
+        margin-left: 10px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        width: 18.75rem;
+        height: 100vh;
+        background: rgb(45, 17, 71);
+        top: 3.3rem;
+        left: 100%;
+        /* We are hidding it */
+        padding: 5rem 0rem;
+        transition: all 0.8s ease-in;
+    }
+
+    nav ul.display {
+        left: 0px;
+        transition: all 0.8s ease-in-out;
+    }
+
+    nav ul li a {
+        display: block;
+        margin: 10px;
+    }
+
+    .close-btn {
+        position: absolute;
+        top: 0rem;
+        left: 15rem;
+        margin: 1.5rem;
+    }
+}

@@ -1,0 +1,8 @@
+#jumbo{
+    height: 30rem;
+    background-image: url(images/healthy-img.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+}
