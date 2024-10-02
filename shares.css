@@ -1,0 +1,85 @@
+
+body p{
+    color: rgb(71, 70, 70);
+    line-height: 150%;
+}
+
+body h2{
+    color: rgb(54, 54, 54);
+}
+
+body li{
+    color: rgb(71, 70, 70);
+    line-height: 150%;
+    margin-top: 0.5rem;
+}
+
+#shares{
+    width: 95%;
+    margin: 0 auto;
+}
+
+#shares h1{
+    text-align: center;
+}
+
+#shares img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    height: 15rem;
+    box-shadow: 2px 3px 6px black;
+    border-radius: 6px;
+}
+
+#shares .quote{
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(177, 12, 12);
+}
+
+#shares .main-quote{
+    color: rgb(28, 28, 187);
+}
+
+#share-details{
+    width: 95%;
+    margin: 0 auto;
+}
+
+#share-details .def{
+    font-weight: 700;
+}
+
+#share-details .list-title{
+    font-weight: 700;
+}
+
+#conclusion{
+    width: 95%;
+    margin: 0 auto;
+}
+
+#disclaimer{
+    width: 95%;
+    margin: 0 auto;
+}
+
+/*********************************** Make responsive */
+@media(max-width: 768px){
+    body h2{
+        text-align: center;
+    }
+    body p{
+        text-align: center;
+    }
+    #shares img{
+        width: 95%;
+    }
+    #shares .quote{
+        width: 95%;
+        text-align: center;
+    }
+}
