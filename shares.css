@@ -8,6 +8,10 @@ body h2{
     color: rgb(54, 54, 54);
 }
 
+body h3{
+    color: rgb(54, 54, 54);
+}
+
 body li{
     color: rgb(71, 70, 70);
     line-height: 150%;
