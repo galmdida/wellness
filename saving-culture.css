@@ -1,0 +1,139 @@
+/* # Format body */
+body{
+    font-family: proxima-nova, sans-serif;
+    font-size: 0.95rem;
+}
+
+h1{
+    font-family: "Zilla Slab", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.quote{
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    text-align: center;
+    color: rgb(38, 38, 158);
+    font-weight: bold;
+}
+
+.main-quote{
+    color: rgb(38, 38, 158);
+}
+
+.fun-one{
+    font-style: italic;
+    color: rgb(206, 51, 45);
+}
+
+h2{
+    font-family: "Zilla Slab", serif;
+    text-align: center;
+    color: rgb(42, 42, 190);
+}
+
+h3{
+    font-family: "Zilla Slab", serif;
+    margin: 1rem auto;
+}
+
+h4{
+    font-family: "Zilla Slab", serif;
+}
+
+#mmf img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    /* width: 25rem; */
+    height: 15rem;
+    box-shadow: 2px 3px 6px black;
+    border-radius: 6px;
+}
+main h3{
+    color: rgb(192, 64, 47);
+    font-size: 1.2rem;
+    
+}
+
+/* Make the highlight section grid */
+#mmf{
+    width: 95%;
+    margin: 0.8rem auto;
+    /* text-align: center; */
+}
+
+main p{
+    color: rgb(36, 35, 35);
+    /* font-size: 0.8rem; */
+    line-height: 130%;
+}
+
+#blog ol{
+    margin: 0;
+    padding: 0;
+}
+
+#blog ul{
+    margin: 0;
+    padding: 0;
+}
+
+#blog ol li{
+    margin: 0 1rem 0.5rem 1rem;
+    padding: 0 1rem 0 1rem;
+}
+
+#blog ul li{
+    margin: 0 1rem 0.5rem 1rem;
+    padding: 0 1rem 0 1rem;
+}
+
+.where-invest{
+    color: black;
+    font-weight: 550;
+}
+
+#blog ol li{
+    line-height: 130%;
+}
+
+#blog .question{
+    color: rgb(238, 49, 49);
+    font-style: italic;
+}
+
+#blog .yes{
+    color: green;
+    font-style: italic;
+}
+
+
+#footer h2{
+    color: white;
+}
+
+.quick-link{
+    text-decoration: underline;
+}
+
+
+/* Responsive image */
+@media (max-width: 768px){
+    #mmf img{
+        width: 80%;
+    }
+    .quote{
+        width: 80%;
+        text-align: center;
+        color: rgb(38, 38, 158);
+        font-weight: bold;
+    }
+
+}

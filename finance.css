@@ -1,0 +1,38 @@
+#organize{
+    width: 80%;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+#organize ul li{
+    line-height: 180%;
+}
+
+
+
+#organize h2{
+    text-align: center;
+    font-size: 2.2rem;
+    text-decoration: underline;
+    color: rgb(224, 114, 114);
+}
+
+#articles{
+    text-align: center;
+}
+
+#services{
+    text-align: center;
+}
+
+
+
+/*********************************** Make responsive */
+@media(max-width: 768px){
+    #organize{
+        width: 95%;
+        gap: 2rem;
+    }
+}
