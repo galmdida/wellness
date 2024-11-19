@@ -1,0 +1,81 @@
+/* # Format body */
+body{
+    font-family: proxima-nova, sans-serif;
+    font-size: 0.95rem;
+}
+
+/* Format h1 */
+h2{
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(35,35,35);
+}
+#mmf img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    /* width: 25rem; */
+    height: 15rem;
+    box-shadow: 1px 2px 6px black;
+}
+main h3{
+    color: rgb(91, 91, 223);
+    font-size: 1.5rem;
+    /* color: rgb(35,35,35); */
+    text-align: center; 
+}
+
+/* Make the highlight section grid */
+#mmf{
+    width: 95%;
+    margin: 0.8rem auto;
+    /* text-align: center; */
+}
+
+main p{
+    color: rgb(36, 35, 35);
+    /* font-size: 0.8rem; */
+    line-height: 130%;
+}
+
+#blog ol{
+    margin: 0;
+    padding: 0;
+}
+
+#blog ol li{
+    margin: 0 1rem 0.5rem 1rem;
+    padding: 0 1rem 0 1rem;
+}
+
+.where-invest{
+    color: black;
+    font-weight: 550;
+}
+
+#blog ol li{
+    line-height: 130%;
+}
+
+#blog .question{
+    color: rgb(238, 49, 49);
+    font-style: italic;
+}
+
+#blog .yes{
+    color: green;
+    font-style: italic;
+}
+
+
+#footer h2{
+    color: white;
+}
+
+/* Responsive image */
+@media (max-width: 768px){
+    #mmf img{
+        width: 80%;
+    }
+}
